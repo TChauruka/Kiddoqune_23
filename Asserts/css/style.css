@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap');
+
+*{
+  margin:0;
+  padding: 0;
+  border: 0;
+}
+
+body{
+  font-family: Lato;
+  color:#777777;
+
+}
+
+#menu{
+  font-size: 110%;
+  list-style-type:none;
+  letter-spacing: 4px;
+  padding-top: 30px;
+}
+
+#menu a{
+  text-decoration: none;
+  color:inherit;
+}
+
+#menu a:hover{
+  border-bottom: 1px solid #777777;
+  color:#D2691E;
+}
+
+#active{
+  border-bottom: 1px solid #777777;
+}
+
+#hero-image{
+  height: 800px ;
+  width: 100%;
+  background:url(../image/hero_img.jpg) center ;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+}
+
+#logo{
+  font-size: 150%;
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: red;
+  text-align: center;
+  padding-top: 350px;
+}
+
+#logob h2{
+  font-size: 150px;
+}
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: yellow;
+    background-color: #35dbb7;
+    border-color: #35dbb7;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+}
