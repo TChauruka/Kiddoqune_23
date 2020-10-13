@@ -36,27 +36,26 @@ body{
 #hero-image{
   height: 800px ;
   width: 100%;
-  background:url(../image/hero_img.jpg) center ;
+  background:url(../image/hero-image.jpg) center ;
   background-repeat: no-repeat;
   margin-top: 30px;
 }
 
 #logo{
-  font-size: 150%;
+  font-size: 200%;
   font-family: Oswald;
   text-transform: uppercase;
   letter-spacing: 4px;
-  color: red;
+  color:inherit;
   text-align: center;
   padding-top: 350px;
 }
 
-#logob h2{
-  font-size: 150px;
+#logo h2{
+  font-size: 200px;
 }
 
 /* Buttons */
-
 .btn--cta {
     font-weight: bold;
     border-radius: 23px;
@@ -64,9 +63,9 @@ body{
 }
 
 .btn--red {
-    color: yellow;
-    background-color: #35dbb7;
-    border-color: #35dbb7;
+    color: white;
+    background-color: #f05f40;
+    border-color: #f05f40;
 }
 
 .btn--red:hover,
@@ -76,4 +75,14 @@ body{
     background-color: #df4929;
     border-color: #df4929;
     color: white;
+}
+
+
+#about{
+  text-align: center;
+}
+
+.card-img-top{
+  height:450px;
+  width:100%;
 }
