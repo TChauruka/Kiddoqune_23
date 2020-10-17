@@ -34,7 +34,7 @@ body{
 }
 
 #hero-image{
-  height: 800px ;
+  height: 950px ;
   width: 100%;
   background:url(../image/hero-image.jpg) center ;
   background-repeat: no-repeat;
@@ -81,6 +81,8 @@ body{
 #about{
   text-align: center;
   text-decoration: underline;
+  padding-top:30px;
+  padding-bottom:30px;
 }
 
 .card-img-top{
@@ -88,11 +90,13 @@ body{
   width:100%;
 }
 
- #goal{
-   padding-left: 500px;
- }
 
 #music-title{
   text-align: center;
   text-decoration: underline;
+  padding-bottom: 30px;
+}
+
+#about-main{
+  background-color: #DCDCDC;
 }

@@ -1,0 +1,7 @@
+/*
+ Quantcast measurement tag
+ Copyright (c) 2008-2020, Quantcast Corp.
+*/
+(function(b,h,g){try{__qc("defaults",b,{labels:"_fp.event.Default"})}catch(l){}var k=function(a,c,e){return a?"nc"===a?!c||!e||0>c.indexOf(e):"eq"===a?c===e:"sw"===a?0===c.indexOf(e):"ew"===a?(a=c.length-e.length,c=c.lastIndexOf(e,a),-1!==c&&c===a):"c"===a?0<=c.indexOf(e):!1:!1},d=function(a,c,e){var b;if(h.top===h.self)b=g.location.href;else{b=g.referrer;var d=g.createElement("a");d.href=b;b=d.href}k(c,b,e)?a(b):a(!1)},f=function(a){return"array"==={}.toString.call(a).match(/\s([a-zA-Z]+)/)[1].toLowerCase()?
+{labels:a.join(",")}:{labels:""+a}};__qc.apply(null,["rules",[b,null,[[f,"_fp.event.Homepage"]],[[d,"eq","https://soundcloud.com/"]]],[b,null,[[f,"_fp.event.SoundCloud Pro Landing Page"]],[[d,"eq","https://soundcloud.com/pro/buy/pro"]]],[b,null,[[f,"_fp.event.SoundCould Pro Unlimited Landing Page"]],[[d,"eq","https://soundcloud.com/pro/buy/pro-unlimited"]]],[b,null,[[f,"_fp.event.Welcome Page"]],[[d,"eq","https://soundcloud.com/welcome"]]],[b,null,[[f,"_fp.event.Go Page"]],[[d,"eq","https://soundcloud.com/go"]]],
+[b,null,[[f,"_fp.event.Get SoundCloud Go"]],[[d,"eq","https://soundcloud.com/go/buy/go"]]],[b,null,[[f,"_fp.event.Upload Page"]],[[d,"eq","https://soundcloud.com/upload"]]]])})("p-v6vhDK1Eg0ZDD",window,document);
