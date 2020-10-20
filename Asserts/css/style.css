@@ -8,7 +8,7 @@
 
 body{
   font-family: Lato;
-  color:#777777;
+  color:white;
 
 }
 
@@ -26,7 +26,7 @@ body{
 
 #menu a:hover{
   border-bottom: 1px solid #777777;
-  color:#D2691E;
+  color:#F6874C;
 }
 
 #active{
@@ -98,5 +98,28 @@ body{
 }
 
 #about-main{
-  background-color: #DCDCDC;
+  background-color:#F56C51 ;
+}
+
+#music{
+  background-color:#B6E5EA;
+}
+
+#video{
+  overflow: hidden;
+}
+
+.social-networks{
+  text-align: center;
+}
+
+.social-networks li{
+  display: inline;
+}
+
+.social-networks i{
+  font-size: 190%;
+  margin: 1%;
+  padding: 2%;
+  color: #7777 ;
 }
