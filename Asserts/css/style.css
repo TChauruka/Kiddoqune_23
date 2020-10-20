@@ -1,57 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap');
 
-*{
-  margin:0;
+* {
+  margin: 0;
   padding: 0;
   border: 0;
 }
 
-body{
+body {
   font-family: Lato;
-  color:#7777;
-
+  color: #7777;
 }
 
-#menu{
+#menu {
   font-size: 110%;
-  list-style-type:none;
+  list-style-type: none;
   letter-spacing: 4px;
   padding-top: 30px;
 }
 
-#menu a{
+#menu a {
   text-decoration: none;
-  color:inherit;
+  color: inherit;
 }
 
-#menu a:hover{
+#menu a:hover {
   border-bottom: 1px solid #777777;
-  color:#F6874C;
+  color: #F6874C;
 }
 
-#active{
+#active {
   border-bottom: 1px solid #777777;
 }
 
-#hero-image{
-  height: 950px ;
+#hero-image {
+  height: 950px;
   width: 100%;
-  background:url(../image/hero-image.jpg) center ;
+  background: url(../image/hero-image.jpg) center;
   background-repeat: no-repeat;
   margin-top: 30px;
 }
 
-#logo{
+#logo {
   font-size: 200%;
   font-family: Oswald;
   text-transform: uppercase;
   letter-spacing: 4px;
-  color:inherit;
+  color: inherit;
   text-align: center;
   padding-top: 350px;
 }
 
-#logo h2{
+#logo h2 {
   font-size: 200px;
 }
 
@@ -60,66 +59,65 @@ body{
   border-radius: 23px;
   font-weight: bold;
   width: 200px;
-  height:50px;
+  height: 50px;
 }
 
 .btn--red {
-    color: white;
-    background-color: #f05f40;
-    border-color: #f05f40;
+  color: white;
+  background-color: #f05f40;
+  border-color: #f05f40;
 }
 
 .btn--red:hover,
 .btn--red:active,
 .btn--red:focus,
 .btn--red:active:focus {
-    background-color: #df4929;
-    border-color: #df4929;
-    color: white;
+  background-color: #df4929;
+  border-color: #df4929;
+  color: white;
 }
 
-
-#about{
+#about {
   text-align: center;
   text-decoration: underline;
-  padding-top:30px;
-  padding-bottom:30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-.card-img-top{
-  height:450px;
-  width:100%;
+.card-img-top {
+  height: 450px;
+  width: 100%;
 }
 
-#music-title{
+#music-title {
   text-align: center;
   text-decoration: underline;
   padding-bottom: 30px;
 }
 
-#about-main{
-  background-color:#F56C51 ;
+#about-main {
+  background-color: #F56C51;
 }
 
-#music{
-  background-color:#B6E5EA;
+#music {
+  background-color: #B6E5EA;
 }
 
-#video{
+#video {
   overflow: hidden;
 }
 
-.social-networks{
+.social-networks {
   text-align: center;
 }
 
-.social-networks li{
+.social-networks li {
   display: inline;
 }
 
-.social-networks i{
+.social-networks i {
   font-size: 190%;
   margin: 1%;
   padding: 2%;
-  color: #7777 ;
+  color: #7777;
 }
