@@ -8,7 +8,7 @@
 
 body{
   font-family: Lato;
-  color:white;
+  color:#7777;
 
 }
 
@@ -57,9 +57,10 @@ body{
 
 /* Buttons */
 .btn--cta {
-    font-weight: bold;
-    border-radius: 23px;
-    width: 160px;
+  border-radius: 23px;
+  font-weight: bold;
+  width: 200px;
+  height:50px;
 }
 
 .btn--red {
@@ -89,7 +90,6 @@ body{
   height:450px;
   width:100%;
 }
-
 
 #music-title{
   text-align: center;
