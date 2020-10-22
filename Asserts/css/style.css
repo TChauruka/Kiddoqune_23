@@ -41,22 +41,26 @@ body {
 }
 
 #logo {
-  font-size: 200%;
   font-family: Oswald;
   text-transform: uppercase;
   letter-spacing: 4px;
   color: inherit;
-  text-align: center;
   padding-top: 350px;
+  text-align: center;
 }
 
 #logo h2 {
   font-size: 200px;
 }
 
+#model{
+  text-align: center;
+  padding-top: 30px;
+}
+
 /* Buttons */
 .btn--cta {
-  border-radius: 23px;
+  border-radius: 30px;
   font-weight: bold;
   width: 200px;
   height: 50px;
