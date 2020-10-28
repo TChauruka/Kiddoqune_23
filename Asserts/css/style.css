@@ -53,7 +53,7 @@ body {
   font-size: 200px;
 }
 
-#model{
+#model {
   text-align: center;
   padding-top: 30px;
 }
@@ -107,9 +107,6 @@ body {
   background-color: #B6E5EA;
 }
 
-#video{
-}
-
 .social-networks {
   text-align: center;
 }
@@ -133,10 +130,10 @@ body {
 }
 
 .iframe-container iframe {
-   border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
