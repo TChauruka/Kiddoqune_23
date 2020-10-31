@@ -20,12 +20,12 @@ body {
 
 #menu a {
   text-decoration: none;
-  color: inherit;
+  color: #040C17;
 }
 
 #menu a:hover {
   border-bottom: 1px solid #777777;
-  color: #F6874C;
+  color: inherit;
 }
 
 #active {
@@ -59,33 +59,25 @@ body {
 }
 
 /* Buttons */
-.btn--cta {
-  border-radius: 30px;
+.btn-red {
+  border-radius: 1em;
   font-weight: bold;
-  width: 200px;
-  height: 50px;
-}
-
-.btn--red {
-  color: white;
+  font-size: 2em !important;
+  color: white !important;
   background-color: #f05f40;
   border-color: #f05f40;
 }
 
-.btn--red:hover,
-.btn--red:active,
-.btn--red:focus,
-.btn--red:active:focus {
-  background-color: #df4929;
-  border-color: #df4929;
-  color: white;
+.btn-red:hover,
+.btn-red:active,
+.btn-red:focus,
+.btn-red:active:focus {
+  background-color: #9090B6;
+  border-color:#9090B6;
 }
 
-#about {
-  text-align: center;
-  text-decoration: underline;
-  padding-top: 30px;
-  padding-bottom: 30px;
+#about-h2 {
+  font-weight: bold !important;
 }
 
 .card-img-top {
@@ -93,20 +85,13 @@ body {
   width: 100%;
 }
 
-#music-title {
-  text-align: center;
-  text-decoration: underline;
-  padding-bottom: 30px;
-}
-
-#about-main {
-  background-color: #F56C51;
-}
-
 #music {
-  background-color: #B6E5EA;
+  background-color: #001B0A;
 }
 
+#music-title{
+  background-color: #001B0A!important;
+}
 .social-networks {
   text-align: center;
 }
@@ -123,8 +108,7 @@ body {
 }
 
 .iframe-container {
-  overflow: hidden;
-  /* 16:9 aspect ratio */
+  overflow: hidden !important;
   padding-top: 56.25%;
   position: relative;
 }
@@ -135,5 +119,32 @@ body {
   left: 0;
   position: absolute;
   top: 0;
-  width: 100%;
+  width: 100% !important;
+}
+
+/*h2*/
+.h2-design {
+  background-color: black;
+  text-align: center !important;
+  color: white;
+  margin-bottom: 0 !important;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  font-weight: bold !important;
+}
+
+/*About Section*/
+.about-showcase .about-showcase-text {
+  padding: 3rem;
+}
+
+.about-showcase .about-showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .about-showcase .about-showcase-text {
+    padding: 7rem
+  }
 }
