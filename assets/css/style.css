@@ -73,7 +73,7 @@ body {
 .btn-red:focus,
 .btn-red:active:focus {
   background-color: #9090B6;
-  border-color:#9090B6;
+  border-color: #9090B6;
 }
 
 #about-h2 {
@@ -89,9 +89,10 @@ body {
   background-color: #001B0A;
 }
 
-#music-title{
-  background-color: #001B0A!important;
+#music-title {
+  background-color: #001B0A !important;
 }
+
 .social-networks {
   text-align: center;
 }
@@ -141,6 +142,10 @@ body {
 .about-showcase .about-showcase-img {
   min-height: 30rem;
   background-size: cover;
+}
+
+#contact{
+  background-color: #757FA3;
 }
 
 @media (min-width: 768px) {
