@@ -144,6 +144,10 @@ body {
   background-size: cover;
 }
 
+.contact{
+  background-color: #757FA3;
+}
+
 #contact{
   background-color: #757FA3;
 }
@@ -152,5 +156,5 @@ body {
   .about-showcase .about-showcase-text {
     padding: 7rem
   }
-  
+
 }
