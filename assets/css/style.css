@@ -6,6 +6,10 @@
   border: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Lato;
   color: #7777;
@@ -49,10 +53,6 @@ body {
   text-align: center;
 }
 
-#logo h2 {
-  font-size: 200px;
-}
-
 #model {
   text-align: center;
   padding-top: 30px;
@@ -86,11 +86,11 @@ body {
 }
 
 #music {
-  background-color: #001B0A;
+  background: linear-gradient(180deg, rgba(0, 43, 16, 1) 0%, rgba(0, 27, 10, 1) 50%, rgba(0, 0, 0, 1) 100%);
 }
 
 #music-title {
-  background-color: #001B0A !important;
+  background-color: #002b10 !important
 }
 
 .social-networks {
@@ -144,17 +144,22 @@ body {
   background-size: cover;
 }
 
-.contact{
-  background-color: #757FA3;
+.contact {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 15%, rgba(0, 27, 10, 1) 75%, rgba(0, 43, 16, 1) 100%);
 }
 
-#contact{
-  background-color: #757FA3;
+form {
+  color: white;
 }
 
 @media (min-width: 768px) {
   .about-showcase .about-showcase-text {
     padding: 7rem
   }
+}
 
+@media (max-width: 450px) {
+  #logo h1 {
+    font-size: 50px;
+  }
 }
