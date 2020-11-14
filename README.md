@@ -42,8 +42,6 @@ This is the main website for a up and coming musician who is ready for the world
 
 -   Interactive elements
 
--   
-
 ## Technologies Used
 
 ### Languages Used
@@ -76,6 +74,45 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Results](https://validator.w3.org/nu/#textarea)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://jigsaw.w3.org/css-validator/validator)
+
+-  #### First Time Visitor Goals
+
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+
+        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
+        2. The main points are made immediately with the hero image
+        3. The user has two options, click the menu bars or scroll down, both of which will lead to the same place, to learn more about the musician.
+
+    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+
+        1. The site has been designed to be fluid and never to entrap the user. At the top of the website there is a navigation bar, each link describes what the page they will end up at clearly.
+        2. At the bottom of the page there is social media links that will redirect too the musician social media.
+        3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
+
+-  #### Returning Visitor Goals
+
+      1. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+
+         1. The navigation bar has a "Contact" that will scroll down to the Contact Us section.
+         2. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
+         3. The footer contains links to the organisations Facebook, YouTube, SoundCloud and Instagram.
+         4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
+
+     2. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
+
+        1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
+
+-  #### Returning Visitor Goals
+
+    1. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+
+        1. The navigation bar has a "Contact" that will scroll down to the Contact Us section.
+        2. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
+        3. 3. The footer contains links to the organisations Facebook, YouTube, SoundCloud and Instagram.
+        4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
+
+    2. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
+        1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
 
 ## Deployment
 
