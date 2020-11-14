@@ -4,7 +4,7 @@
 
 This is the main website for a up and coming musician who is ready for the world to hear his music.  
 
-<h2 align="center"><img src=""></h2>
+<h2 align="center"><img src="assets/image/website.jpg"></h2>
 
 ## User Experience (UX)
 
@@ -36,12 +36,13 @@ This is the main website for a up and coming musician who is ready for the world
 *   ### Wireframes
 
     -   <h2 align="center"><img src="https://i.ibb.co/0VM93Cd/Kiddoqune-23-wire-frame.jpg"></h2>
-
 ## Features
 
 -   Responsive on all device sizes
 
 -   Interactive elements
+
+-   
 
 ## Technologies Used
 
