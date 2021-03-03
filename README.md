@@ -36,11 +36,18 @@ This is the main website for a up and coming musician who is ready for the world
 *   ### Wireframes
 
     -   <h2 align="center"><img src="https://i.ibb.co/0VM93Cd/Kiddoqune-23-wire-frame.jpg"></h2>
+
 ## Features
 
 -   Responsive on all device sizes
 
--   Interactive elements
+-   Video to show the users about the singers music.
+
+-   SoundCloud music play list for the users to listen to the singers music.  
+
+-   Google map to show where most music is recorded.
+
+-   Links to the musician social media, SoundCloud and YouTube channel.
 
 ## Technologies Used
 
