@@ -181,3 +181,16 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 -   My Mentor for continuous helpful feedback.
 
 -   Tutor support at Code Institute for their support.
+
+## Commit Addition
+
+| Commit Message|
+|---|
+|added navigation section to scroll to section in the page|
+|added a button that triggers the sign up model |
+|added a sign up model |
+|added about section with the singer information|
+|added music section with the music and video iframe|
+|added contact section with a customer input section|
+|added a google map iframe|
+|added links to social media, SoundCloud and YouTube  |
